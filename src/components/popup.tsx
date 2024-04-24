@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 interface props {
     onCancel: () => void,
@@ -10,8 +10,8 @@ interface props {
 
 const Modal = ({ onCancel, btnText, content }: props) => {
     useEffect(() => {
-        const handleClickOutside = (event: React.ChangeEvent<HTMLDivElement>) => {
-            if (event.target.classList.contains('modal-overlay')) {
+        const handleClickOutside = (event: MouseEvent) => {
+            if ((event.target as HTMLElement).classList.contains('modal-overlay')) {
                 onCancel();
             }
         };
@@ -22,6 +22,7 @@ const Modal = ({ onCancel, btnText, content }: props) => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
     }, [onCancel]);
+
 
     return (
         <div className="modal-overlay fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 flex justify-center items-center z-50">
