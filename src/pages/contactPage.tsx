@@ -25,6 +25,7 @@ const ContactPage = () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
+
     return <div className="">
         <ContactForm />
         <div className="relative max-w-[1170px] mx-auto relative sm:flex sm:flex-col">
@@ -35,7 +36,7 @@ const ContactPage = () => {
                 <p className="pt-2 pb-4 text-sm font-medium">Landline - 022 4131 0099</p>
                 <div className="pb-4 flex items-center gap-4 text-sm font-semibold">
                     <img src="gmap.png" alt="Google map Link" />
-                    <p>Google map Link</p>
+                    <a href="https://www.google.com/maps/place/edge+CRM/@19.212777,73.109044,15z/data=!4m6!3m5!1s0x3be7c9af72af5525:0x8b52ac04d1895c9!8m2!3d19.2127771!4d73.1090441!16s%2Fg%2F11hdvw2xr1?hl=en&entry=ttu">Google map Link</a>
                 </div>
             </div>
 
