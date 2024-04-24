@@ -30,7 +30,7 @@ const ContactPage = () => {
         <div className="w-[1170px] mx-auto relative sm:flex sm:flex-col">
 
 
-            <div className="max-[300px]:w-[260px] max-[400px]:w-[260px] w-[340px] h-[309px] sm:w-[486px] sm:h-[315px] top-52 absolute sm:top-40 left-8 bg-gray-200 p-4 rounded-lg shadow-lg  transform  z-10 bg-gradient-to-r from-indigo-700 to-indigo-600 p-10 md:p-12 rounded-md text-white">
+            <div className="max-[300px]:w-[260px] max-[400px]:w-[260px] w-[340px] h-[309px] sm:w-[486px] sm:h-[315px] top-52 absolute sm:top-40 left-8 bg-gray-200 p-4 rounded-lg shadow-lg  transform  z-10 bg-bl-gradient p-10 md:p-12 rounded-md text-white">
                 <h1 className="text-md md:text-xl lg:text-2xl font-bold">OnestopNDT</h1>
                 <p className="pt-8 pb-4 text-sm font-semibold">PAP/R/406 Rabale MIDC Near Dol Electric<br /> Company Rabale MIDC, Navi Mumbai - 400701</p>
                 <p className="pt-2 pb-4 text-sm font-medium">Landline - 022 4131 0099</p>

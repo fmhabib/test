@@ -127,7 +127,7 @@ const ContactForm = () => {
                 btnText="Close"
             />
         )}
-        <div className="w-full shadow-full rounded-xl p-8 md:p-12 lg:p-16 md:flex justify-between gap-8">
+        <div className="w-full shadow-full rounded-xl px-8 pb-8 pt-12 md:p-12 lg:p-16 md:flex justify-between gap-8">
             <div className="md:w-1/2">
                 <h1 className="font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl text-[#505050]">Got any questions?</h1>
                 <p className="py-4 font-medium text-[#505050]">Let’s discuss it over a cup of coffee.</p>
@@ -146,7 +146,7 @@ const ContactForm = () => {
                     />
                 ))}
 
-                <div className="md:absolute bottom-4 right-0">
+                <div className="md:absolute md:bottom-4 right-0">
 
                     <Button text={"Submit"} onClick={onSubmit} />
 

@@ -13,9 +13,8 @@ export default {
   ,
     backgroundImage: {
       'company': "url('img1.png')",
-      'footer-texture': "url('/img/footer-texture.png')",
+      'bl-gradient': 'linear-gradient(48deg, rgba(2,0,36,1) 0%, rgba(16,57,119,1) 0%, rgba(23,19,82,1) 100%)'
     }},
   },
   plugins: [],
 }
-
